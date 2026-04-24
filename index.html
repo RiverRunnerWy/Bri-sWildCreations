@@ -153,6 +153,7 @@
     .product p {
       font-size: .92rem;
       line-height: 1.5;
+      border: 1px solid rgba(0,0,0,0.05);
     }
 
     .about {
@@ -194,6 +195,16 @@
         min-height: 80vh;
       }
     }
+    .products-title::after,
+.intro h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #c88b5a;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
   </style>
 </head>
 
