@@ -125,17 +125,18 @@
       text-align: center;
     }
 
-    .product:hover {
-      transform: translateY(-6px);
-    }
+   .product img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px;
+  background: #ead8c5;
+  transition: 0.3s;
+}
 
-    .product img {
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-      border-radius: 14px;
-      background: #ead8c5;
-    }
+.product:hover img {
+  transform: scale(1.05);
+}
 
     .product h3 {
       font-family: 'Playfair Display', serif;
